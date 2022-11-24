@@ -5,7 +5,12 @@ date: "2022-11-20"
 output: html_document
 ---
 
-# Column descriptions
+# Important
+
+All features are both normalized between [-1, 1] and are the mean of all measurements of the unique combination of subject and activity.  
+For example, if subject 1 has ten measurements in tBodyAcc-Xmean() for activity "WALKING", the number in the cell is the average of all ten measurements. 
+
+## Column descriptions
 
 + "Subject", integer identification of subject.
 + "Activity", target variable, activity the subject was engaged in when the measurements were taken.
